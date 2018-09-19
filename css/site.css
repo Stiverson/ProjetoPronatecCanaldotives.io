@@ -1,0 +1,72 @@
+﻿body  
+{
+    margin:0;
+    font-family: Sans-Serif;
+    background-color:black;
+    color:white;
+}
+    
+
+footer
+{
+    clear:both;
+    background-image: url('../imagens/fundo-rodape.jpg');
+    background-repeat: repeat-x;
+    background-position: top left;
+    min-height:106px;
+    padding:25px;
+}
+header
+{
+    background-image: url('../imagens/fundo-cabecalho.jpg');
+    background-repeat: repeat-x;
+    background-position: top left;
+    height:104px;
+}
+    header h1 {
+        font-size: 0;
+        background-image: url('..');
+        width: 384px;
+        height: 100px;
+    }
+header nav { float:right; margin-top:65px; }
+footer nav { float:right; }
+nav ul li{ display:block; float: left; padding:2px 7px; }
+nav ul li a{ text-decoration:none; color:silver; }
+
+
+                    
+                
+.conteudo-principal { width:980px; margin:0 auto;height:480px; }
+.capa { width:100%; overflow:hidden;color:red; }
+.destaque {
+    width:320px;
+    float:left;
+    min-height:350px;
+    
+}
+.destaque p { margin:1px 9px; Font-color=none;
+              
+              }
+.thumb
+{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+}
+.thumb img
+{
+    position:relative;
+    top:-540px;
+    left:-960px; 
+}
+
+.p
+{
+    text-align justify;
+   text-indent 3em; }
+    
+      
+
+   
